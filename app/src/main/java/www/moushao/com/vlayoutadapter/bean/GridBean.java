@@ -1,0 +1,31 @@
+package www.moushao.com.vlayoutadapter.bean;
+
+/**
+ * Created by Moushao on 2017/8/30.
+ */
+
+public class GridBean {
+    private String pic_url;
+    private String function;
+
+    public GridBean(String pic_url, String function) {
+        this.pic_url = pic_url;
+        this.function = function;
+    }
+
+    public String getPic_url() {
+        return pic_url;
+    }
+
+    public void setPic_url(String pic_url) {
+        this.pic_url = pic_url;
+    }
+
+    public String getFunction() {
+        return function;
+    }
+
+    public void setFunction(String function) {
+        this.function = function;
+    }
+}
