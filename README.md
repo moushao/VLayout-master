@@ -1,7 +1,9 @@
+
+**效果图**
 ![](http://upload-images.jianshu.io/upload_images/927828-c1c822e4d4a15357.gif?imageMogr2/auto-orient/strip)
 
 
-#使用方式：
+**使用方式：**
 
       waterfallAdapter = new VBaseAdapter(mContext)//
                 .setData(new ArrayList<WaterCargo>())//
@@ -17,7 +19,7 @@
 
 
 
-**[简书详细教程]()**
+**[简书详细教程](http://www.jianshu.com/p/6383b182092e)**
 
 **更多交流方式，请加群：541144061**
 
