@@ -20,6 +20,7 @@
                 }); 
 
 
+**[VLayout-master.apk下载](https://raw.githubusercontent.com/moushao/VLayout-master/master/Vlayout-master.apk)**
 
 **[简书详细教程](http://www.jianshu.com/p/6383b182092e)**
 
