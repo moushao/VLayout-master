@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VLayoutAdapter.iml" filepath="$PROJECT_DIR$/VLayoutAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VLayout-master.iml" filepath="$PROJECT_DIR$/VLayout-master.iml" />
+      <module fileurl="file://E:\Workspace\OtherDemo\VLayout-master\VLayoutAdapter.iml" filepath="E:\Workspace\OtherDemo\VLayout-master\VLayoutAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Workspace\OtherDemo\VLayout-master\app\app.iml" filepath="E:\Workspace\OtherDemo\VLayout-master\app\app.iml" />
     </modules>
   </component>
 </project>
