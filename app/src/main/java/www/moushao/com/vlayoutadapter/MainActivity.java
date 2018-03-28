@@ -48,7 +48,7 @@ public class MainActivity extends BaseActivity implements MainView {
     @BindView(R.id.recycler) RecyclerView mRecycler;
     private Context mContext;
     private DelegateAdapter delegateAdapter;
-    private VBaseAdapter bannerAdapter, gridAdapter, headLineAdapter, newForceAdapter, haohuoAdapter, plugInAdapter, 
+    private VBaseAdapter bannerAdapter, gridAdapter, headLineAdapter, newForceAdapter, haohuoAdapter, plugInAdapter,
             waterfallAdapter, buttomAdapter;
 
 
@@ -80,7 +80,14 @@ public class MainActivity extends BaseActivity implements MainView {
         //设置缓存view个数(当视图中view的个数很多时，设置合理的缓存大小，防止来回滚动时重新创建 View)
         final RecyclerView.RecycledViewPool viewPool = new RecyclerView.RecycledViewPool();
         mRecycler.setRecycledViewPool(viewPool);
-        viewPool.setMaxRecycledViews(0, 20);
+        viewPool.setMaxRecycledViews(0, 1);
+        viewPool.setMaxRecycledViews(1, 10);
+        viewPool.setMaxRecycledViews(2, 2);
+        viewPool.setMaxRecycledViews(3, 2);
+        viewPool.setMaxRecycledViews(4, 6);
+        viewPool.setMaxRecycledViews(5, 8);
+        viewPool.setMaxRecycledViews(6, 8);
+        viewPool.setMaxRecycledViews(7, 1);
 
         delegateAdapter = new DelegateAdapter(virtualLayoutManager, false);
         final List<DelegateAdapter.Adapter> adapters = new LinkedList<>();
